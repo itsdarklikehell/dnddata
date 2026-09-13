@@ -57,5 +57,5 @@ deal with using the \code{list} objects.
 }
 }
 \seealso{
-\code{\link{dnd_chars_unique_list)}}, \code{\link{dnd_chars_all_list}}, \code{\link{dnd_chars_singleclass_list}}, \code{\link{dnd_chars_multiclass_list}}
+\code{\link{dnd_chars_unique_list}}, \code{\link{dnd_chars_all_list}}, \code{\link{dnd_chars_singleclass_list}}, \code{\link{dnd_chars_multiclass_list}}
 }

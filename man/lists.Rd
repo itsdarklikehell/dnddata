@@ -25,5 +25,5 @@ components for easier access.
 }
 }
 \seealso{
-\code{\link{dnd_chars_unique)}}, \code{\link{dnd_chars_all}}, \code{\link{dnd_chars_singleclass}}, \code{\link{dnd_chars_multiclass}}
+\code{\link{dnd_chars_unique}}, \code{\link{dnd_chars_all}}, \code{\link{dnd_chars_singleclass}}, \code{\link{dnd_chars_multiclass}}
 }

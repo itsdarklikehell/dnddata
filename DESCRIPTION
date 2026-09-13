@@ -1,10 +1,17 @@
 Package: dnddata
 Title: Dataset of D&D characters
 Version: 1.0.22.8.23
-Authors@R: person("Ogan", "Mancarci", email = "first.last@example.com", role = c("aut", "cre"))
-Description: A dataset of D&D characters submitted to https://oganm.github.io/printSheetApp and https://oganm.github.io/5eInteractiveSheet
+Authors@R: person("Ogan", "Mancarci", email = "oganmancarci@gmail.com", role = c("aut", "cre"))
+Author: Ogan Mancarci
+Maintainer: Ogan Mancarci <oganmancarci@gmail.com>
+Description: A dataset of D&D characters submitted to
+    https://oganm.github.io/printSheetApp and
+    https://oganm.github.io/5eInteractiveSheet.
+    It is a superset of the dataset previously released under
+    oganm/dndstats, with a larger sample size and more data fields.
 Depends: R (>= 3.4.4)
-License: What license is it under?
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 RoxygenNote: 6.0.1
