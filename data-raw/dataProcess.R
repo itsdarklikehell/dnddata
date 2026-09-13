@@ -41,6 +41,12 @@ if(file.exists('memoImportChar.rds')){
 }
 
 # get all char files saved everywhere. Yes I made a mess that I refused to fix...
+# NOTE: these paths are hard-coded to the original author's server layout:
+#   /srv/shiny-server/printSheetApp/chars/
+#   /srv/shiny-server/interactiveSheet/chars/
+#   /srv/shiny-server/chars, chars2, chars3, chars4
+# They will NOT resolve on a fresh clone — override by placing character files
+# in one of these directories (or patch the paths below before running dataProcess.R).
 charFiles = c(list.files('/srv/shiny-server/printSheetApp/chars/',full.names = TRUE),
 			  list.files('/srv/shiny-server/interactiveSheet/chars/',full.names = TRUE),
 			  list.files('/srv/shiny-server/chars',full.names = TRUE),

@@ -40,7 +40,7 @@ If you are an R user, you can simply install this package and load it to
 access the dataset
 
 ``` r
-devtools::install_github('oganm/dnddata')
+devtools::install_github('itsdarklikehell/dnddata')
 library(dnddata)
 ```
 

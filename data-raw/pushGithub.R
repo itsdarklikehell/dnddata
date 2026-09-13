@@ -39,6 +39,9 @@ add(repo, 'data/*')
 
 
 commit(repo, "auto update")
+# NOTE: pushGithub.R reads a GitHub PAT from data-raw/auth (one line, no trailing newline).
+# That file is NOT shipped in the package — create it before running this script, or
+# comment out the push block. See README.md § Repositories for the intended workflow.
 token = readLines(here('data-raw/auth'))
 Sys.setenv(GITHUB_PAT = token)
 cred = git2r::cred_token()
